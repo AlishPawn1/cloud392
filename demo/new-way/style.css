@@ -1,0 +1,30 @@
+.splide__slide {
+    transition: transform 0.3s, opacity 0.3s;
+    transform-origin: center center; /* Center the transformation origin for a better perspective effect */
+  }
+  
+  .splide__list {
+    transform-style: preserve-3d; /* Ensures 3D transformations are preserved */
+  }
+  
+  .splide {
+    perspective: 1000px; /* Adds depth perception */
+  }
+  
+  .splide__slide img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .splide__slide {
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center center;
+    transform-style: preserve-3d; /* Allows nested elements to have 3D transforms */
+    width: 20%;
+  }
+  
+  .splide {
+    overflow: visible; /* Make sure slides can overlap and display correctly */
+  }
+  
