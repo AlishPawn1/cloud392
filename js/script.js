@@ -194,7 +194,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 });
 
-new WOW().init();
 
 if(document.querySelector('.banner-slide')){
     banner_slide = new Splide('.banner-slide',{
